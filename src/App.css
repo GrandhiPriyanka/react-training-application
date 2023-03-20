@@ -32,7 +32,60 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.counterClass {
+  display: inline;
+  padding: 0 10px;
+}
+
+.formContainer  {
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+}
+
+.searchInput {
+  opacity: 30%;
+  height: 50px;
+  width: 60%;
+}
+.searchInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  /* color: #FFFFFF; */
+  opacity: 0.6; 
+}
+.searchInput::-ms-input-placeholder { /* Microsoft Edge */
+  opacity: 0.6; 
+  /* color: #FFFFFF; */
+ }
+.buttonContainerClass{
+  padding: 0 10px;
+  width: 15%;
+}
+
+.container {
+  background: #080707;
+  height: 100%;
+  color: #FFFFFF;
+}
+
+.buttonClass{
+  width: 100%;
+  height: 52px;
+}
+/* .movieListStyle{
+  display: flex;
+  justify-content: center;
+} */
+
+.highlightClass{
+  color: red;
+}
+
+.deHighlightClass{
+  color: #FFFFFF;
 }
